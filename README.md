@@ -1,2 +1,2 @@
-# Tech-Bot-2.0
-i wanna fucking d i e
+# Loren-Bot
+It's Loren, but in bot form.
