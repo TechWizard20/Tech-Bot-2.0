@@ -57,7 +57,7 @@ client.on('message', message => {
         message.content.match(/despite your directions/i)
         )
     {
-        message.channel.sendMessage(‘Fuck yeah, steamed hams!’);
+        message.channel.sendMessage('Can we cool it on the constant Steamed Hams references in this chat?');
 	return;
     }
     
@@ -71,41 +71,48 @@ client.on('message', message => {
 	var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 	var month = months[update.getMonth()];
 	var year = update.getFullYear();
-        message.channel.sendMessage("Hey everyone, this is TechWizard. Welcome to the " + month + " " + year + " genocide where we pick a random place to cause havoc.”);
+        message.channel.sendMessage("Hey everyone, this is Loren from Donut Team. Welcome to the " + month + " " + year + " Status Update.");
 	return;
     }
-    if 
+    if (message.content.match(/spaghetti/i) ||
+        message.content.match(/meatballs/i) ||
+        message.content.match(/pasta/i) ||
+        message.content.match(/rice/i) ||
+        message.content.match(/ice cream/i) ||
         message.content.match(/pizza/i) ||
-        message.content.match(/oh wow i am not a healthy person/i) ||	
+        message.content.match(/oh wow i am not a healthy person/i) ||
+	message.content.match(/taqutio/i) || //what the fuck's a taqutio?
+	message.content.match(/taquito/i) ||
+        message.content.match(/taco/i)) 
     {
-        message.channel.sendMessage(“MOM ORDER A DAMN PIZZA.”);
+        message.channel.sendMessage("Fuck now I'm hungry.");
 		return;
     }
     if (message.content.match(/donut mod trailer/i) || message.content.match(/trailer for donut mod/i)) 
     {
-        message.channel.sendMessage('The year 3,900,120.’);
+        message.channel.sendMessage('The year 2077.');
 		return;
     }
     if (message.content.match(/map builder/i)) 
     {
-        message.channel.sendMessage(’What the absolute fuck is a map builder’);
+        message.channel.sendMessage('The map builder should be out sometime this year. I realize the wait for it has been tremendous and I apologize to those who have been looking forward to it.');
 		return;
     }
     if (message.content.match(/fuck road nodes/i)) 
     {
-        message.channel.sendMessage(‘IT’S CALLED A ROAD’);
-	message.channel.sendMessage(‘Sorry for my shitty references’);
+        message.channel.sendMessage('Also I have to stop referring to them as "Road Nodes" since the actual name is just "Roads"');
+	message.channel.sendMessage('Which is confusing but its the official name for that chunk type.');
 		return;
     }
     if (message.content.match(/fucking game gets crash/i)) 
     {
-        message.channel.sendMessage(“Do you even grammar, bro“);
+        message.channel.sendMessage("Calm down.");
 		return;
     }
     if (message.content.match(/splatoon/i)) 
     {
-        message.channel.sendMessage(“fuck i love splatoon”);
-	message.channel.sendMessage(“I made an Octoling once. Good shit.“);
+        message.channel.sendMessage("I want to play Splatoon.");
+	message.channel.sendMessage("I'm going to play Splatoon.");
 		return;
     }
     if (message.content.match(/map/i)) 
